@@ -1,0 +1,7 @@
+<!DOCTYPE html>
+    {% extends "index.html" %}
+        {% block body_block %}
+    <h1>Welcome to Relative page in Django</h1>
+    <a href="{% url 'other' %}">Other page</a>
+        <h3>Another example of templates inheritance</h3>
+        {% endblock %}
